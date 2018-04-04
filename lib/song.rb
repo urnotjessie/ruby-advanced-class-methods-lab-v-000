@@ -40,7 +40,6 @@ class Song
           self.find_by_name(name)
       end
   end
-  binding.pry
 
   def self.alphabetical
       self.sort! {|a, b| a.name <=> b.name}
